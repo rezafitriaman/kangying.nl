@@ -1,0 +1,66 @@
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/image2.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+
+  .container  {
+    z-index: 1;
+  }
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width: 992px) {
+    height: 100vh;
+    h1 {
+      font-size: 5.5rem;
+    }
+  }
+  p {
+    font-size: 30px;
+  }
+  .openings-tijden {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-color: #00000087;
+    color:#ffffff;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+
+    .fa-clock {
+      margin-right: 5px;;
+    }
+  }
+}
+
+.masthead::after {
+  content: '';
+  background-color: #e7665054;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: auto;
+}
