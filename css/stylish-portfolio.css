@@ -136,7 +136,7 @@ h6 {
   color: #ffffff;
   z-index: 1;
   width: 100%;
-  height: 50px;
+  min-height: 50px;
   justify-content: space-around;
   align-items: center;
 }
@@ -145,9 +145,15 @@ h6 {
   margin-right: 5px;
 }
 
+@media (max-width: 768px) {
+  .openings-tijden {
+    flex-direction: column;
+  }
+}
+
 .masthead::after {
   content: '';
-  background-color: #e7665054;
+  background-color: rgba(108, 70, 78, 0.5);
   display: block;
   height: 100%;
   width: 100%;
@@ -167,7 +173,7 @@ h6 {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #6e2424;
+  background: #6c464e;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -231,7 +237,7 @@ h6 {
   height: 50px;
   text-align: center;
   color: #fff;
-  background: rgba(110, 36, 36, 0.5);
+  background: rgba(108, 70, 78, 0.5);
   line-height: 50px;
   z-index: 999;
 }
@@ -241,12 +247,12 @@ h6 {
 }
 
 .menu-toggle:hover {
-  background: #6e2424;
+  background: #6c464e;
 }
 
 .service-icon {
   background-color: #fff;
-  color: #6e2424;
+  color: #6c464e;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -355,7 +361,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(110, 36, 36, 0.9);
+    background-color: rgba(108, 70, 78, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -378,33 +384,33 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #6e2424;
+  background-color: #6c464e;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #481717;
+  background-color: #4d3238;
   text-decoration: none;
 }
 
 a {
-  color: #6e2424;
+  color: #6c464e;
 }
 
 a:hover, a:focus, a:active {
-  color: #481717;
+  color: #4d3238;
 }
 
 .btn-primary {
-  background-color: #6e2424 !important;
-  border-color: #6e2424 !important;
+  background-color: #6c464e !important;
+  border-color: #6c464e !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #481717 !important;
-  border-color: #481717 !important;
+  background-color: #4d3238 !important;
+  border-color: #4d3238 !important;
 }
 
 .btn-secondary {
@@ -420,12 +426,12 @@ a:hover, a:focus, a:active {
 
 .btn-dark {
   color: #fff !important;
-  background-color: #6e2424 !important;
-  border-color: #6e2424 !important;
+  background-color: #6c464e !important;
+  border-color: #6c464e !important;
 }
 
 .btn-dark:hover, btn-dark:focus {
-  background-color: #6e2424 !important;
+  background-color: #6c464e !important;
 }
 
 .btn {
@@ -434,15 +440,15 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #6e2424 !important;
+  background-color: #6c464e !important;
 }
 
 .fa-shoe-prints, .fa-hands, .fa-spa, .text-secondary {
-  color: #6e2424 !important;
+  color: #6c464e !important;
 }
 
 .text-primary {
-  color: #6e2424 !important;
+  color: #6c464e !important;
 }
 
 .phone a {
@@ -450,43 +456,67 @@ a:hover, a:focus, a:active {
   margin-left: 10px;
 }
 
-.modal-content {
+#about h4 {
+  margin-bottom: 50px;
+  color: #a5a5a5;
+  font-size: 18px;
+}
+
+#about .box {
+  position: relative;
+}
+
+#about .box .img-thumbnail {
+  padding: 0;
+}
+
+#about .box .prijs {
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 100%;
+  background-color: #6c464e80;
+  bottom: 0px;
+  color: white;
+}
+
+#prijs .modal-content {
   background-image: url("../img/image1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
 
-.modal-content .modal-body {
+#prijs .modal-content .modal-body {
   z-index: 1;
 }
 
-.modal-content .modal-body .groep-een ul, .modal-content .modal-body .groep-twee ul, .modal-content .modal-body .groep-drie ul, .modal-content .modal-body .groep-vier ul, .modal-content .modal-body .groep-vier ul, .modal-content .modal-body .groep-vier ul {
+#prijs .modal-content .modal-body .groep-een ul, #prijs .modal-content .modal-body .groep-twee ul, #prijs .modal-content .modal-body .groep-drie ul, #prijs .modal-content .modal-body .groep-vier ul, #prijs .modal-content .modal-body .groep-vier ul, #prijs .modal-content .modal-body .groep-vier ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-.modal-content .modal-body .groep-een ul strong, .modal-content .modal-body .groep-twee ul strong, .modal-content .modal-body .groep-drie ul strong, .modal-content .modal-body .groep-vier ul strong, .modal-content .modal-body .groep-vier ul strong, .modal-content .modal-body .groep-vier ul strong {
+#prijs .modal-content .modal-body .groep-een ul strong, #prijs .modal-content .modal-body .groep-twee ul strong, #prijs .modal-content .modal-body .groep-drie ul strong, #prijs .modal-content .modal-body .groep-vier ul strong, #prijs .modal-content .modal-body .groep-vier ul strong, #prijs .modal-content .modal-body .groep-vier ul strong {
   position: absolute;
   right: 20px;
 }
 
-.modal-content .modal-body .groep-vijf {
+#prijs .modal-content .modal-body .groep-vijf {
   margin-top: 20px;
 }
 
-.modal-content .modal-body .groep-vijf ul {
+#prijs .modal-content .modal-body .groep-vijf ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-.modal-content .modal-footer {
+#prijs .modal-content .modal-footer {
   z-index: 1;
 }
 
-.modal-content::after {
+#prijs .modal-content::after {
   content: '';
   display: block;
   width: 100%;

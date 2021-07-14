@@ -64,3 +64,29 @@ a {
     margin-left: 10px;
   }
 }
+
+#about {
+  h4 {
+    margin-bottom: 50px;
+    color: #a5a5a5;
+    font-size: 18px;
+  }
+}
+
+#about {
+  .box {
+    position: relative;
+    .img-thumbnail {
+      padding: 0;
+    }
+    .prijs {
+      position: absolute;
+      display: block;
+      height: 30px;
+      width: 100%;
+      background-color: #6c464e80;
+      bottom: 0px;
+      color: white;
+    }
+  }
+}

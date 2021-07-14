@@ -42,7 +42,7 @@
     color:#ffffff;
     z-index: 1;
     width: 100%;
-    height: 50px;
+    min-height: 50px;
     justify-content: space-around;
     align-items: center;
 
@@ -52,9 +52,15 @@
   }
 }
 
+@media (max-width: 768px) {
+  .openings-tijden {
+    flex-direction: column;
+  }
+}
+
 .masthead::after {
   content: '';
-  background-color: #e7665054;
+  background-color: fade-out($primary, .5);
   display: block;
   height: 100%;
   width: 100%;
