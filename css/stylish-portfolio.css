@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Stylish Portfolio v5.0.8 (https://startbootstrap.com/themes/stylish-portfolio)
- * Copyright 2013-2020 Start Bootstrap
+ * Copyright 2013-2024 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
 }
 
 .btn-xl {
@@ -26,7 +26,6 @@ body {
 .content-section-heading h2 {
   font-size: 3rem;
 }
-
 .content-section-heading h3 {
   font-size: 1rem;
   text-transform: uppercase;
@@ -55,7 +54,6 @@ h6 {
     height: 75%;
   }
 }
-
 .map iframe {
   pointer-events: none;
 }
@@ -72,15 +70,12 @@ h6 {
   background: rgba(52, 58, 64, 0.5);
   line-height: 45px;
 }
-
 .scroll-to-top:focus, .scroll-to-top:hover {
   color: white;
 }
-
 .scroll-to-top:hover {
   background: #343a40;
 }
-
 .scroll-to-top i {
   font-weight: 800;
 }
@@ -100,17 +95,14 @@ h6 {
   background-attachment: fixed;
   color: white;
 }
-
 .masthead .container {
   z-index: 1;
 }
-
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
 }
-
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
@@ -119,11 +111,9 @@ h6 {
     font-size: 5.5rem;
   }
 }
-
 .masthead p {
   font-size: 30px;
 }
-
 .masthead .openings-tijden {
   list-style-type: none;
   padding: 0;
@@ -132,7 +122,7 @@ h6 {
   bottom: 0;
   left: 0;
   display: flex;
-  background-color: #00000087;
+  background-color: rgba(0, 0, 0, 0.5294117647);
   color: #ffffff;
   z-index: 1;
   width: 100%;
@@ -140,7 +130,6 @@ h6 {
   justify-content: space-around;
   align-items: center;
 }
-
 .masthead .openings-tijden .fa-clock {
   margin-right: 5px;
 }
@@ -150,9 +139,8 @@ h6 {
     flex-direction: column;
   }
 }
-
 .masthead::after {
-  content: '';
+  content: "";
   background-color: rgba(108, 70, 78, 0.5);
   display: block;
   height: 100%;
@@ -241,15 +229,12 @@ h6 {
   line-height: 50px;
   z-index: 999;
 }
-
 .menu-toggle:focus, .menu-toggle:hover {
   color: #fff;
 }
-
 .menu-toggle:hover {
   background: #6c464e;
 }
-
 .service-icon {
   background-color: #fff;
   color: #6c464e;
@@ -271,12 +256,10 @@ h6 {
   background-attachment: fixed;
   color: white;
 }
-
 .callout .container {
   z-index: 1;
   position: relative;
 }
-
 .callout h2 {
   font-size: 3.5rem;
   font-weight: 700;
@@ -285,8 +268,8 @@ h6 {
 }
 
 .callout::after {
-  content: '';
-  background-color: #e7665054;
+  content: "";
+  background-color: rgba(231, 102, 80, 0.3294117647);
   display: block;
   height: 100%;
   width: 100%;
@@ -304,7 +287,6 @@ h6 {
   max-width: 530px;
   margin: auto auto 1rem;
 }
-
 .portfolio-item .caption {
   display: flex;
   height: 100%;
@@ -315,22 +297,18 @@ h6 {
   bottom: 0;
   z-index: 1;
 }
-
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
 }
-
 .portfolio-item .caption .caption-content h2 {
   font-size: 0.8rem;
   text-transform: uppercase;
 }
-
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
   font-size: 1.2rem;
 }
-
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
@@ -377,7 +355,6 @@ footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-
 footer.footer .social-link {
   display: block;
   height: 4rem;
@@ -388,7 +365,6 @@ footer.footer .social-link {
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
-
 footer.footer .social-link:hover {
   background-color: #4d3238;
   text-decoration: none;
@@ -397,7 +373,6 @@ footer.footer .social-link:hover {
 a {
   color: #6c464e;
 }
-
 a:hover, a:focus, a:active {
   color: #4d3238;
 }
@@ -407,7 +382,6 @@ a:hover, a:focus, a:active {
   border-color: #6c464e !important;
   color: #fff !important;
 }
-
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background-color: #4d3238 !important;
   border-color: #4d3238 !important;
@@ -418,7 +392,6 @@ a:hover, a:focus, a:active {
   border-color: #ecb807 !important;
   color: #fff !important;
 }
-
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #ba9106 !important;
   border-color: #ba9106 !important;
@@ -465,17 +438,15 @@ a:hover, a:focus, a:active {
 #about .box {
   position: relative;
 }
-
 #about .box .img-thumbnail {
   padding: 0;
 }
-
 #about .box .prijs {
   position: absolute;
   display: block;
   height: 30px;
   width: 100%;
-  background-color: #6c464e80;
+  background-color: rgba(108, 70, 78, 0.5019607843);
   bottom: 0px;
   color: white;
 }
@@ -486,38 +457,31 @@ a:hover, a:focus, a:active {
   background-size: cover;
   color: white;
 }
-
 #prijs .modal-content .modal-body {
   z-index: 1;
 }
-
 #prijs .modal-content .modal-body .groep-een ul, #prijs .modal-content .modal-body .groep-twee ul, #prijs .modal-content .modal-body .groep-drie ul, #prijs .modal-content .modal-body .groep-vier ul, #prijs .modal-content .modal-body .groep-vier ul, #prijs .modal-content .modal-body .groep-vier ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-
 #prijs .modal-content .modal-body .groep-een ul strong, #prijs .modal-content .modal-body .groep-twee ul strong, #prijs .modal-content .modal-body .groep-drie ul strong, #prijs .modal-content .modal-body .groep-vier ul strong, #prijs .modal-content .modal-body .groep-vier ul strong, #prijs .modal-content .modal-body .groep-vier ul strong {
   position: absolute;
   right: 20px;
 }
-
 #prijs .modal-content .modal-body .groep-vijf {
   margin-top: 20px;
 }
-
 #prijs .modal-content .modal-body .groep-vijf ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-
 #prijs .modal-content .modal-footer {
   z-index: 1;
 }
-
 #prijs .modal-content::after {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 100%;
